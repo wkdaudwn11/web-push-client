@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'MJ Next App',
-  description: 'MJ Next App',
+  title: 'web-push-example',
+  description: 'web-push-example',
 };
 
 const RootLayout = ({
