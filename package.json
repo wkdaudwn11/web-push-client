@@ -7,12 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "vapid": "node generate-vapid-keys.ts"
   },
   "dependencies": {
     "next": "14.2.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@types/node": "^20",
