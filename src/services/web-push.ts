@@ -73,7 +73,7 @@ export const sendNotification = async () => {
   try {
     const response = await api.post('/api/send-notification', {
       title: 'web push test',
-      body: 'Test push notification',
+      body: 'web push 별거없네ㅋ',
       icon: '/favicon.ico',
       badge: '/favicon.ico',
     });
