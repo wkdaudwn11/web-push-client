@@ -10,7 +10,7 @@ const Providers = ({ children }: Props) => {
   useEffect(() => {
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
-        .register('/sw.js')
+        .register('/sw.js?v=4')
         .then((registration) => {
           console.log(
             'Service Worker registered with scope:',

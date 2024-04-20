@@ -39,7 +39,13 @@
     },
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": ["*.config.js", "*.config.mjs", "*.config.ts", "*/work/*"],
+  "ignorePatterns": [
+    "*.config.js",
+    "*.config.mjs",
+    "*.config.ts",
+    "*/worker/*",
+    "public/*.js"
+  ],
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-interface": "off",
@@ -53,6 +59,7 @@
     "@typescript-eslint/no-unsafe-call": "off",
     "@typescript-eslint/return-await": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
     "consistent-return": [
       "error",
       {
